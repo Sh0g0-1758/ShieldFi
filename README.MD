@@ -31,13 +31,19 @@ Well, to use the model you will need to have the follwing installed on your syst
 
 # Configuring the model
 
-To test the evm : 
+To test the evm :
+```bash
 $ just test-evm
+```
 
-To generate proof for verification : 
+To generate proof for verification :
+```bash
 $ just prove
+```
 
 # References 
-* [run Solidity code inside SputnikVM inside Risc0](https://odra.dev/blog/evm-at-risc0/)
+* [Run Solidity code inside SputnikVM inside Risc0](https://odra.dev/blog/evm-at-risc0/)
 * [zkPoEX developed at ETHDenver](https://github.com/zkoranges/zkPoEX/tree/main)
+
+
 
