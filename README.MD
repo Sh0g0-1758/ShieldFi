@@ -1,6 +1,5 @@
 # ShieldFi
-   ![WhatsApp Image 2023-07-15 at 1 29 34 AM](https://github.com/VasuK111/ShieldFi/assets/117103753/d25e04eb-528c-46ad-923b-ff216021fe80)
-
+   Add image here.
 "ShieldFi" is a Proof-of-Concept developed at Internal Hackathon of Blockchain Society-IIT Roorkee. 
 ShieldFi at its heart carries the essence which is about securing DeFi Transactions. 
 We aim to improvise the connection and collaboration between the Security experts and teams at various DeFi protocols. We aim to do so through the use of Zero-knowledge proofs. 
@@ -11,3 +10,15 @@ Bug bounty programs in the DeFi space face challenges in terms of management, re
 This often discourages hackers from reporting vulnerabilities, posing a risk to the overall security of the DeFi ecosystem.
 
 # Our Solution
+Our advanced tooling enables auditors to generate a zero-knowledge proof of exploit securely, without disclosing the actual exploit itself. By utilizing zero-knowledge proofs, auditors can demonstrate their knowledge of a transaction that could lead to an undesirable change in contract state, without revealing the specific details of the exploit.
+By safeguarding the exploit, auditors foster an environment where project owners are encouraged to collaborate in resolving vulnerabilities. This facilitates effective communication and cooperation between hackers and project owners, promoting a more secure DeFi ecosystem.
+ Add the mechanism image here
+
+# Technologies Used
+Our project incorporates the following technologies:
+
+1. Risc0: A versatile Zero-Knowledge Virtual Machine (ZKVM) designed for proving and verifying computations. Risc0 utilizes the RISC Zero ZKVM, which emulates a real embedded RISC-V microprocessor. This empowers developers to write ZK proofs in a manner similar to conventional code development.
+
+2. SputnikVM: A modular and high-performance virtual machine specifically designed for executing Ethereum smart contracts. SputnikVM offers efficient contract execution capabilities within the project's ecosystem.
+
+3. Zero-Knowledge Proofs: A cryptographic technique enabling one party to demonstrate the truth of a statement to another party without disclosing any additional information beyond the validity of the statement. Zero-Knowledge Proofs play a crucial role in ensuring privacy and security within the project, as they allow for secure verification of claims without revealing sensitive data.
