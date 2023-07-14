@@ -17,8 +17,10 @@ By safeguarding the exploit, auditors foster an environment where project owners
 # Technologies Used
 Our project incorporates the following technologies:
 
-1. Risc0: A versatile Zero-Knowledge Virtual Machine (ZKVM) designed for proving and verifying computations. Risc0 utilizes the RISC Zero ZKVM, which emulates a real embedded RISC-V microprocessor. This empowers developers to write ZK proofs in a manner similar to conventional code development.
+1. [Risc0](https://www.risczero.com/): A versatile Zero-Knowledge Virtual Machine (ZKVM) designed for proving and verifying computations. Risc0 utilizes the RISC Zero ZKVM, which emulates a real embedded RISC-V microprocessor. This empowers developers to write ZK proofs in a manner similar to conventional code development.
 
-2. SputnikVM: A modular and high-performance virtual machine specifically designed for executing Ethereum smart contracts. SputnikVM offers efficient contract execution capabilities within the project's ecosystem.
+2. [SputnikVM](https://github.com/rust-blockchain/evm): A modular and high-performance virtual machine specifically designed for executing Ethereum smart contracts. SputnikVM offers efficient contract execution capabilities within the project's ecosystem.
 
-3. Zero-Knowledge Proofs: A cryptographic technique enabling one party to demonstrate the truth of a statement to another party without disclosing any additional information beyond the validity of the statement. Zero-Knowledge Proofs play a crucial role in ensuring privacy and security within the project, as they allow for secure verification of claims without revealing sensitive data.
+3. [Zero-Knowledge Proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof): A cryptographic technique enabling one party to demonstrate the truth of a statement to another party without disclosing any additional information beyond the validity of the statement. Zero-Knowledge Proofs play a crucial role in ensuring privacy and security within the project, as they allow for secure verification of claims without revealing sensitive data.
+
+
