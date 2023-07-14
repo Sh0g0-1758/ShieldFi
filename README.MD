@@ -1,4 +1,4 @@
-# ShieldFi
+# ShieldFi in brief
    Add image here.
 "ShieldFi" is a Proof-of-Concept developed at Internal Hackathon of Blockchain Society-IIT Roorkee. 
 ShieldFi at its heart carries the essence which is about securing DeFi Transactions. 
@@ -28,3 +28,16 @@ Well, to use the model you will need to have the follwing installed on your syst
 1. [Rust](https://www.rust-lang.org/tools/install)
 2. [Just](https://github.com/casey/just)
 3. [Solc](https://docs.soliditylang.org/en/v0.8.17/installing-solidity.html)
+
+# Configuring the model
+
+To test the evm : 
+$ just test-evm
+
+To generate proof for verification : 
+$ just prove
+
+# References 
+* [run Solidity code inside SputnikVM inside Risc0](https://odra.dev/blog/evm-at-risc0/)
+* [zkPoEX developed at ETHDenver](https://github.com/zkoranges/zkPoEX/tree/main)
+
