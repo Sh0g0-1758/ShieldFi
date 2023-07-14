@@ -1,5 +1,5 @@
 # ShieldFi in brief
-   ![ShieldFi](WhatsApp Image 2023-07-15 at 1.29.34 AM.jpeg)
+   ![ShieldFi](https://github.com/VasuK111/ShieldFi/blob/864dbdbbc0a7b5df1e73fdce4d9624ed17100b68/WhatsApp%20Image%202023-07-15%20at%201.29.34%20AM.jpeg)
 "ShieldFi" is a Proof-of-Concept developed at Internal Hackathon of Blockchain Society-IIT Roorkee. 
 ShieldFi at its heart carries the essence which is about securing DeFi Transactions. 
 We aim to improvise the connection and collaboration between the Security experts and teams at various DeFi protocols. We aim to do so through the use of Zero-knowledge proofs. 
