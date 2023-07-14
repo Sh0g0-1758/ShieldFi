@@ -42,6 +42,10 @@ To generate proof for verification :
 ```bash
 $ just prove
 ```
+# Challenges Faced 
+* Initial configuration of SputnikVM was a toughnut and its operation was computationally expensive too(Minimum 16GB RAM required/32 GB preferred).
+* We were digesting information at god's pace. Had to go through a hell lot of documentation for understanding SputnikVM and Just
+* The whole idea itself when first came to head seemt challenging since we only had very basic theory level knowledge of zkP's and decent knowledge of DeFi.
 
 # References 
 * [Run Solidity code inside SputnikVM inside Risc0](https://odra.dev/blog/evm-at-risc0/)
