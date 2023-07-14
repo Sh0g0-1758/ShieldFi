@@ -23,4 +23,8 @@ Our project incorporates the following technologies:
 
 3. [Zero-Knowledge Proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof): A cryptographic technique enabling one party to demonstrate the truth of a statement to another party without disclosing any additional information beyond the validity of the statement. Zero-Knowledge Proofs play a crucial role in ensuring privacy and security within the project, as they allow for secure verification of claims without revealing sensitive data.
 
-
+# Setting up your system
+Well, to use the model you will need to have the follwing installed on your system :
+1. [Rust](https://www.rust-lang.org/tools/install)
+2. [Just](https://github.com/casey/just)
+3. [Solc](https://docs.soliditylang.org/en/v0.8.17/installing-solidity.html)
