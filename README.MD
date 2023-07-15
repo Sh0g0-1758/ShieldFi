@@ -1,10 +1,10 @@
 # ShieldFi in brief
   ![ShieldFi](https://github.com/VasuK111/ShieldFi/blob/864dbdbbc0a7b5df1e73fdce4d9624ed17100b68/WhatsApp%20Image%202023-07-15%20at%201.29.34%20AM.jpeg)
 
-"ShieldFi" is a Proof-of-Concept developed at Internal Hackathon of Blockchain Society-IIT Roorkee. 
+"ShieldFi" is a Proof-of-Concept developed at the Internal Hackathon of Blockchain Society-IIT Roorkee. 
 ShieldFi at its heart carries the essence which is about securing DeFi Transactions. 
 We aim to improvise the connection and collaboration between the Security experts and teams at various DeFi protocols. We aim to do so through the use of Zero-knowledge proofs. 
-The core concept behind ShieldFi is simple : Generate a zkP for an exploit in a smart contract and report it to the DeFi teams .
+The core concept behind ShieldFi is simple: Generate a zkP for an exploit in a smart contract and report it to the DeFi teams.
 
 # Problem 
 Bug bounty programs in the DeFi space face challenges in terms of management, recognition, and compensation for white hat hackers.
@@ -26,26 +26,42 @@ Our project incorporates the following technologies:
 3. [Zero-Knowledge Proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof): A cryptographic technique enabling one party to demonstrate the truth of a statement to another party without disclosing any additional information beyond the validity of the statement. Zero-Knowledge Proofs play a crucial role in ensuring privacy and security within the project, as they allow for secure verification of claims without revealing sensitive data.
 
 # Setting up your system
-Well, to use the model you will need to have the follwing installed on your system :
+Well, to use the model you will need to have the following installed on your system :
 1. [Rust](https://www.rust-lang.org/tools/install)
-2. [Just](https://github.com/casey/just)
 3. [Solc](https://docs.soliditylang.org/en/v0.8.17/installing-solidity.html)
 
 # Configuring the model
 
 To test the evm :
 ```bash
-$ just test-evm
+$ git clone https://github.com/Sh0g0-1758/ShieldFi
+$ cd ShieldFi
+$ cd web-gui
+$ node main.js
 ```
 
-To generate proof for verification :
+after the auditor clicks the audit button to submit his audit, the following script runs to To generate proof for verification : 
 ```bash
-$ just prove
+$ solc --bin-runtime \
+        --optimize \
+        --overwrite \
+        --evm-version istanbul \
+        --output-dir ../bytecode \
+        ../bytecode/Target.sol
+
+$ solc --bin-runtime \
+        --optimize \
+        --overwrite \
+        --evm-version istanbul \
+        --output-dir ../bytecode \
+        ../bytecode/Exploiter.sol
+
+$ cargo run --release -p host
 ```
 # Challenges Faced 
-* Initial configuration of SputnikVM was a toughnut and its operation was computationally expensive too(Minimum 16GB RAM required/32 GB preferred).
+* Initial configuration of SputnikVM was a tough nut and its operation was computationally expensive too(Minimum 16GB RAM required/32 GB preferred).
 * We were digesting information at god's pace. Had to go through a hell lot of documentation for understanding SputnikVM and Just
-* The whole idea itself when first came to head seemt challenging since we only had very basic theory level knowledge of zkP's and decent knowledge of DeFi.
+* The whole idea itself when first came to head seemed challenging since we only had very basic theory-level knowledge of zkPs and a decent knowledge of DeFi.
 
 # References 
 * [Run Solidity code inside SputnikVM inside Risc0](https://odra.dev/blog/evm-at-risc0/)
